@@ -6,12 +6,11 @@ An [RevenueCat API](https://docs.revenuecat.com/reference) wrapper.
 ## Installation
 ```groovy
 repositories {
-    jcenter()
     maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    compile 'com.github.stevesoltys:revenuecat:0.1.0'
+    compile 'com.github.stevesoltys:revenuecat:0.1.1'
 }
 ```
 
