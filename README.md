@@ -1,5 +1,5 @@
 # RevenueCat
-[![Build Status](https://travis-ci.org/stevesoltys/revenuecat.svg?branch=master)](https://travis-ci.org/github/stevesoltys/revenuecat)
+[![Build Status](https://travis-ci.com/stevesoltys/revenuecat.svg?branch=master)](https://travis-ci.com/github/stevesoltys/revenuecat)
 
 An [RevenueCat API](https://docs.revenuecat.com/reference) wrapper.
 
