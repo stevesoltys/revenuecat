@@ -16,18 +16,13 @@ dependencies {
 ```
 
 ## Usage
-Create a `RevenueCat` instance with your credentials, and run an API query.
+Create a `RevenueCat` instance with your API key, and run an API query.
 
 Here's an example:
 ```kotlin
 val revenueCat = RevenueCat("sk_dfsg234fv7849hfqa4ufsd")
 
-val searchResultArtist = revenueCat.search(
-    "j cole", types = setOf(SearchResultType.ARTISTS)
-).results?.artists?.data?.first()
-
-val artistAlbums = revenueCat.getAllAlbumsByArtistId(searchResultArtist!!.id!!)
-
+val subscriber = revenueCat.getOrCreateSubscriber(identifier)
 // ...
 ```
 
